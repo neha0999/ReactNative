@@ -1,0 +1,19 @@
+# Node
+node_modules
+*.log
+.nvm
+package-lock.json
+
+
+# Android Studio
+.project
+.settings
+.classpath
+
+# Android
+.idea
+.gradle
+local.properties
+*.iml
+/packages/react-native/android/*
+!/packages/react-native/android/README.md
