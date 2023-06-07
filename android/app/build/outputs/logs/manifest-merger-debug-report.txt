@@ -1,24 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
-INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
-MERGED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
+MERGED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\512e42cc0c381508f2d1b1ddcc0193bd\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\db3a645b5c401b5669a12f79ae5c6c0c\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:8:1-18:12
-MERGED from [:react-native-community_blur] F:\reactnative\NewProj\node_modules\@react-native-community\blur\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_masked-view] F:\reactnative\NewProj\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-gesture-handler] F:\reactnative\NewProj\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-linear-gradient] F:\reactnative\NewProj\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-safe-area-context] F:\reactnative\NewProj\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] F:\reactnative\NewProj\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-youtube] F:\reactnative\NewProj\node_modules\react-native-youtube\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_blur] F:\reactnative\Apps\ReactNative\node_modules\@react-native-community\blur\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] F:\reactnative\Apps\ReactNative\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] F:\reactnative\Apps\ReactNative\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-linear-gradient] F:\reactnative\Apps\ReactNative\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] F:\reactnative\Apps\ReactNative\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] F:\reactnative\Apps\ReactNative\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-youtube] F:\reactnative\Apps\ReactNative\node_modules\react-native-youtube\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\22566865d31ef74cdd0cb020b75ed98d\transformed\jetified-react-android-0.71.8-debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\neha\.gradle\caches\transforms-3\61d40ffb2f470954573454bf76bc5917\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\c03d8241981f4d52632c5c158e550467\transformed\jetified-hermes-android-0.71.8-debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-reanimated] F:\reactnative\NewProj\node_modules\react-native-reanimated\android\build\.transforms\4ae69a2618c9b8372aeec94ae83abc16\transformed\jetified-react-native-reanimated-71-hermes\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] F:\reactnative\Apps\ReactNative\node_modules\react-native-reanimated\android\build\.transforms\0f569888c28b73f4b47734b3bc53d7b3\transformed\jetified-react-native-reanimated-71-hermes\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] C:\Users\neha\.gradle\caches\transforms-3\b515b38be608f5a762db9315db6d46ab\transformed\jetified-fbjni-0.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\neha\.gradle\caches\transforms-3\ae99e443f33005373a1c631abeddf18e\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\neha\.gradle\caches\transforms-3\ad1425aacf3a864807c621770345f4ad\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:2:1-9:12
@@ -76,35 +76,35 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\neha\.gradle\c
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\neha\.gradle\caches\transforms-3\c3849af1901b8ea4ddc083287c7f1748\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\neha\.gradle\caches\transforms-3\68bcfb91eaf09d5b3ad76e71e3371ec2\transformed\jetified-fbcore-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\neha\.gradle\caches\transforms-3\2c406cc44c7e51a6483579314a113f0f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 	package
-		INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
-		INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
-		INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:1-25:12
-		INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:1-25:12
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:3:5-67
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:3:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:3:22-64
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:3:22-64
 application
-ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:5:5-24:19
-MERGED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:5:5-24:19
-MERGED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.facebook.react:react-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\22566865d31ef74cdd0cb020b75ed98d\transformed\jetified-react-android-0.71.8-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\22566865d31ef74cdd0cb020b75ed98d\transformed\jetified-react-android-0.71.8-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\neha\.gradle\caches\transforms-3\fda04c29f37516b0434cb97f63a52366\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:11:5-20
@@ -126,85 +126,85 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ne
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\neha\.gradle\caches\transforms-3\3994986e4b6f29f228dfe8fb9122f0d7\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:7:7-39
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:7:7-39
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:7:7-39
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:7:7-39
 	tools:ignore
-		ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:10:9-48
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:9:7-52
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:9:7-52
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:9:7-52
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:9:7-52
 	tools:targetApi
-		ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:9:9-29
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:8:7-41
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:8:7-41
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:8:7-41
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:8:7-41
 	android:allowBackup
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:10:7-34
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:10:7-34
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:10:7-34
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:10:7-34
 	android:theme
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:11:7-38
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:11:7-38
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:11:7-38
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:11:7-38
 	android:usesCleartextTraffic
-		ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:8:9-44
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:6:7-38
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:6:7-38
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:6:7-38
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:6:7-38
 activity#com.newproj.MainActivity
-ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:12:7-23:18
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:12:7-23:18
 	android:label
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:14:9-41
 	android:launchMode
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:16:9-40
 	android:windowSoftInputMode
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:17:9-51
 	android:exported
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:18:9-32
 	android:configChanges
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:15:9-118
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:15:9-118
 	android:name
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:13:9-37
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:13:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:19:9-22:25
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:20:13-65
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:20:21-62
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:21:13-73
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml:21:23-70
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml:21:23-70
 uses-sdk
-INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml
-INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\512e42cc0c381508f2d1b1ddcc0193bd\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\512e42cc0c381508f2d1b1ddcc0193bd\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\db3a645b5c401b5669a12f79ae5c6c0c\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\db3a645b5c401b5669a12f79ae5c6c0c\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-community_blur] F:\reactnative\NewProj\node_modules\@react-native-community\blur\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_blur] F:\reactnative\NewProj\node_modules\@react-native-community\blur\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] F:\reactnative\NewProj\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] F:\reactnative\NewProj\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] F:\reactnative\NewProj\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] F:\reactnative\NewProj\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] F:\reactnative\NewProj\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] F:\reactnative\NewProj\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] F:\reactnative\NewProj\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] F:\reactnative\NewProj\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] F:\reactnative\NewProj\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] F:\reactnative\NewProj\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-youtube] F:\reactnative\NewProj\node_modules\react-native-youtube\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-youtube] F:\reactnative\NewProj\node_modules\react-native-youtube\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_blur] F:\reactnative\Apps\ReactNative\node_modules\@react-native-community\blur\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_blur] F:\reactnative\Apps\ReactNative\node_modules\@react-native-community\blur\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] F:\reactnative\Apps\ReactNative\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] F:\reactnative\Apps\ReactNative\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] F:\reactnative\Apps\ReactNative\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] F:\reactnative\Apps\ReactNative\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] F:\reactnative\Apps\ReactNative\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] F:\reactnative\Apps\ReactNative\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] F:\reactnative\Apps\ReactNative\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] F:\reactnative\Apps\ReactNative\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] F:\reactnative\Apps\ReactNative\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] F:\reactnative\Apps\ReactNative\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-youtube] F:\reactnative\Apps\ReactNative\node_modules\react-native-youtube\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-youtube] F:\reactnative\Apps\ReactNative\node_modules\react-native-youtube\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\22566865d31ef74cdd0cb020b75ed98d\transformed\jetified-react-android-0.71.8-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\22566865d31ef74cdd0cb020b75ed98d\transformed\jetified-react-android-0.71.8-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\neha\.gradle\caches\transforms-3\61d40ffb2f470954573454bf76bc5917\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\neha\.gradle\caches\transforms-3\61d40ffb2f470954573454bf76bc5917\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.react:hermes-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\c03d8241981f4d52632c5c158e550467\transformed\jetified-hermes-android-0.71.8-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:hermes-android:0.71.8] C:\Users\neha\.gradle\caches\transforms-3\c03d8241981f4d52632c5c158e550467\transformed\jetified-hermes-android-0.71.8-debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] F:\reactnative\NewProj\node_modules\react-native-reanimated\android\build\.transforms\4ae69a2618c9b8372aeec94ae83abc16\transformed\jetified-react-native-reanimated-71-hermes\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] F:\reactnative\NewProj\node_modules\react-native-reanimated\android\build\.transforms\4ae69a2618c9b8372aeec94ae83abc16\transformed\jetified-react-native-reanimated-71-hermes\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] F:\reactnative\Apps\ReactNative\node_modules\react-native-reanimated\android\build\.transforms\0f569888c28b73f4b47734b3bc53d7b3\transformed\jetified-react-native-reanimated-71-hermes\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] F:\reactnative\Apps\ReactNative\node_modules\react-native-reanimated\android\build\.transforms\0f569888c28b73f4b47734b3bc53d7b3\transformed\jetified-react-native-reanimated-71-hermes\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] C:\Users\neha\.gradle\caches\transforms-3\b515b38be608f5a762db9315db6d46ab\transformed\jetified-fbjni-0.3.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fbjni:fbjni:0.3.0] C:\Users\neha\.gradle\caches\transforms-3\b515b38be608f5a762db9315db6d46ab\transformed\jetified-fbjni-0.3.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\neha\.gradle\caches\transforms-3\ae99e443f33005373a1c631abeddf18e\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:5:5-7:41
@@ -319,24 +319,24 @@ MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\neha\.gradle\caches\tran
 MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\neha\.gradle\caches\transforms-3\68bcfb91eaf09d5b3ad76e71e3371ec2\transformed\jetified-fbcore-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\neha\.gradle\caches\transforms-3\2c406cc44c7e51a6483579314a113f0f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\neha\.gradle\caches\transforms-3\2c406cc44c7e51a6483579314a113f0f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml
-INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml
+INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\reactnative\NewProj\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:5:22-75
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:11:9-111
+ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:11:9-111
 	android:exported
-		ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:11:84-108
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:11:84-108
 	android:name
-		ADDED from F:\reactnative\NewProj\android\app\src\debug\AndroidManifest.xml:11:19-83
+		ADDED from F:\reactnative\Apps\ReactNative\android\app\src\debug\AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.125.0] C:\Users\neha\.gradle\caches\transforms-3\1de5dee59d1627955e42d3d6205f726e\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
 	android:name
