@@ -37,6 +37,3 @@ Specify the license under which the project is distributed.
 
 # # Acknowledgments
 If there are any acknowledgments or credits to be given, mention them here.
-
-# # Contact
-Provide contact information for the project maintainers or contributors, such as an email address or a link to the project's issue tracker or forum.
