@@ -2,7 +2,7 @@
 
 import images from "./images"
 
-const Recipes = [
+const categories = [
     {
         id: 1,
         name: "Spaghetti With Shrimp Sauce",
@@ -35,7 +35,7 @@ const Recipes = [
         name: "Sarawak Laksa",
         image: images.laksa,
         duration: "50 mins ",
-        isBookmark: false,
+        isBookmark: true,
         category: "Pasta",
         url: "https://www.youtube.com/watch?v=W-Oqe8Ph_eM",
         serving: 1,
@@ -82,9 +82,11 @@ const trendingRecipes = [
 
     }
 ]
-const categories = Recipes
+
+const allCategories=trendingRecipes.concat(categories)
 
 export default {
     trendingRecipes,
-    categories
+    categories,
+    allCategories
 }

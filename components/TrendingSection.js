@@ -1,10 +1,18 @@
-import React from 'react'
-import { SafeAreaView, Image, Text, View, StyleSheet } from 'react-native';
+import React, { useState } from 'react'
+import { SafeAreaView, Image, Text, View, StyleSheet} from 'react-native';
 import { FONTS, COLORS, SIZES, images, icons, dummyData } from '../constant';
 import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
 import { BlurView } from '@react-native-community/blur';
 
 const RecipeCardDetails = ({ recipeItem }) => {
+    const [isBookmark,setIsBookmark]=useState(recipeItem.isBookmark);
+    
+    const handlePress=()=>{
+       
+        const updatedRecipeItem = { ...recipeItem, isBookmark: !isBookmark };
+    setIsBookmark(!isBookmark);
+   
+    }
     return (
         <View style={{
             flex: 1
@@ -25,13 +33,16 @@ const RecipeCardDetails = ({ recipeItem }) => {
                     {recipeItem.name}
 
                 </Text>
-                <Image source={recipeItem.isBookmark ? icons.bookmarkfilled : icons.bookmark}
+                <TouchableOpacity onPress={handlePress}>
+                    
+                <Image source={isBookmark ? icons.bookmarkfilled : icons.bookmark}
                     style={{
                         width: 20,
                         height: 20,
                         marginRight: SIZES.base,
                         tintColor: COLORS.darkGreen
                     }} />
+                    </TouchableOpacity>
             </View>
             {/* duration */}
             <Text style={{

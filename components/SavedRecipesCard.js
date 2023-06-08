@@ -5,6 +5,8 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
 const SavedRecipesCard = () => {
+    const bookmarkedItemCount = dummyData.allCategories.filter(item => item.isBookmark === true).length;
+
     const navigation = useNavigation()
     return (
         <View
@@ -35,7 +37,7 @@ const SavedRecipesCard = () => {
                 <Text style={{
                     width: "70%",
                     ...FONTS.body4
-                }}>You have 12 recipes that you have'nt tried yet.</Text>
+                }}>You have {bookmarkedItemCount} recipes that you have'nt tried yet.</Text>
                 <TouchableOpacity style={{ marginTop: 10 }}
                     onPress={() => navigation.navigate("Saved")}>
                     <Text style={{

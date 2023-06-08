@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
-import { SafeAreaView, Text, View, StyleSheet } from 'react-native';
-import { FONTS, COLORS, SIZES, icons, Linking, images, dummyData } from '../constant';
+import { SafeAreaView, Text, View,Linking, StyleSheet } from 'react-native';
+import { FONTS, COLORS, SIZES, icons, images, dummyData } from '../constant';
 import { FlatList } from 'react-native-gesture-handler';
 import { CategoryCard, Header, SavedRecipesCard, SearhBar, TrendingSection } from '../components';
-// import YouTube from 'react-native-youtube';
+
 
 
 const HomeScreen = ({ navigation }) => {
-  const [showVideo, setShowVedio] = useState(false);
-  const handleComponentPress = () => {
-    setShowVedio(true);
-  }
+  
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white, paddingVertical:SIZES.padding}}>
       <FlatList
         data={dummyData.categories}
         keyExtractor={item => `${item.id}`}
@@ -52,32 +49,21 @@ const HomeScreen = ({ navigation }) => {
         renderItem={({ item }) => {
           return (
             <View>
-              {!showVideo ? (
-                <CategoryCard
-                  containerStyle={{
-                    marginHorizontal: SIZES.padding
 
-                  }}
-                  categoryItem={item}
+              <CategoryCard
+                containerStyle={{
+                  marginHorizontal: SIZES.padding
 
-                  onPress={handleComponentPress}
-                />
-              ) : (
-                <SafeAreaView >
-                  {/* <YouTube
-                    videoId="KVZ-P-ZI6W4"
-                    apiKey="AIzaSyDpPQXY96LH8EsGs9-64Lk_MncE91CXB4E"
-                    play={true}
-                    fullscreen={false}
-                    loop={false}
-                    onReady={(e) => console.log('onReady')}
-                    onChangeState={(e) => console.log('onChangeState:', e.state)}
-                    onChangeQuality={(e) => console.log('onChangeQuality: ', e.quality)}
-                    onError={(e) => console.log('onError: ', e.error)}
-                    style={{ width: '100%', height: 300 }}
-                  /> */}
-                </SafeAreaView>
-              )}
+                }}
+                categoryItem={item}
+
+                onPress={() => {
+                  const youtubeUrl = item.url;
+                  Linking.openURL(youtubeUrl);
+                }}
+              />
+             
+
 
             </View>
           );

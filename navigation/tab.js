@@ -32,28 +32,31 @@ const Tabs = () => {
             }
 
         }}>
-          
-            <Tab.Screen name="Saved" component={Saved}
-             options={{
-                tabBarIcon: ({ focused }) => <TabIcon focused={focused}
-                    icon={icons.bookmark} />
-            }}
-            />
-              <Tab.Screen
+            <Tab.Screen
                 name="Home"
+
                 component={HomeScreen}
-                options={{
+                options={{headerShown: false,
                     tabBarIcon: ({ focused }) => <TabIcon focused={focused}
                         icon={icons.home} />
                 }}
             />
+          
+            <Tab.Screen name="Saved" component={Saved}
+             options={{
+                headerShown: false,
+                tabBarIcon: ({ focused }) => <TabIcon focused={focused}
+                    icon={icons.bookmark} />
+            }}
+            />
+              
              
-            <Tab.Screen name="Profile" component={HomeScreen} 
+            {/* <Tab.Screen name="Profile" component={Profile} 
             options={{
                 tabBarIcon: ({ focused }) => <TabIcon focused={focused}
                     icon={icons.bookmarkfilled} />
             }} 
-            />
+            /> */}
         </Tab.Navigator>
 
     )

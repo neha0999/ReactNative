@@ -14,7 +14,7 @@ const Header = () => {
           <Text
           style={{color:COLORS.darkGreen,
           ...FONTS.h2,
-          fontWeight:'bold'}}>Hello user</Text>
+          fontWeight:'bold'}}>Welcome</Text>
           <Text style={{
             marginTop:3,
             color:COLORS.gray,
