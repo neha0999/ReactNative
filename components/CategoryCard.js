@@ -10,13 +10,13 @@ const CategoryCard = ({containerStyle,categoryItem, onPress}) => {
         padding:10,
         marginTop:10,
         borderRadius:SIZES.radius,
-        backgroundColor:COLORS.gray2,
+        backgroundColor:COLORS.transparentDarkGray,
         ...containerStyle
     }}
     onPress={onPress}>
         {/* image */}
         <Image
-        source={categoryItem.image}
+       source={{ uri: categoryItem.image.toString() }}
         resizeMode='cover'
         style={{
             width:100,
@@ -31,7 +31,7 @@ const CategoryCard = ({containerStyle,categoryItem, onPress}) => {
         }}>
             <Text style={{flex: 1,
             ...FONTS.h2,
-            color:COLORS.black,fontWeight:'bold'
+            color:COLORS.white,fontWeight:'bold'
             
             }}>
                 {categoryItem.name}

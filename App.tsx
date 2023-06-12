@@ -8,7 +8,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import Tabs from './navigation/tab';
-import { Saved,LandingScreen} from './screens';
+import { Saved,LandingScreen, SearchedRecipes} from './screens';
 
 
 const Stack = createStackNavigator();
@@ -33,6 +33,11 @@ function App(): JSX.Element {
         <Stack.Screen
           name="Saved"
           component={Saved}
+        />
+        <Stack.Screen
+          name="SearchedRecipes"
+          component={SearchedRecipes}
+          options={{ headerShown: false }}
         />
          
         

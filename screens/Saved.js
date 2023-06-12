@@ -8,16 +8,17 @@ const Saved = () => {
   
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white ,paddingVertical:SIZES.padding}}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.black ,paddingVertical:SIZES.padding}}>
       <Text style={{
         marginHorizontal: SIZES.padding,
         ...FONTS.h2,
+        color:COLORS.white
         
       }}>Saved Recipes
 
       </Text>
       <FlatList
-        data={dummyData.allCategories}
+        data={dummyData.categories}
         keyExtractor={item => `${item.id}`}
         keyboardDismissMode='on-drag'
         showsVerticalScrollIndicator={false}

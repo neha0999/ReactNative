@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import { SafeAreaView, Image, Text, View, StyleSheet} from 'react-native';
+import { SafeAreaView, Image, Text, View, StyleSheet } from 'react-native';
 import { FONTS, COLORS, SIZES, images, icons, dummyData } from '../constant';
 import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
 import { BlurView } from '@react-native-community/blur';
 
 const RecipeCardDetails = ({ recipeItem }) => {
-    const [isBookmark,setIsBookmark]=useState(recipeItem.isBookmark);
-    
-    const handlePress=()=>{
-       
+    const [isBookmark, setIsBookmark] = useState(recipeItem.isBookmark);
+
+    const handlePress = () => {
+
         const updatedRecipeItem = { ...recipeItem, isBookmark: !isBookmark };
-    setIsBookmark(!isBookmark);
-   
+        setIsBookmark(!isBookmark);
+
     }
     return (
         <View style={{
@@ -28,21 +28,21 @@ const RecipeCardDetails = ({ recipeItem }) => {
                     width: '70%',
                     color: COLORS.lightLime,
                     ...FONTS.h3,
-                    fontSize: 18
+                    fontSize: 15
                 }}>
                     {recipeItem.name}
 
                 </Text>
                 <TouchableOpacity onPress={handlePress}>
-                    
-                <Image source={isBookmark ? icons.bookmarkfilled : icons.bookmark}
-                    style={{
-                        width: 20,
-                        height: 20,
-                        marginRight: SIZES.base,
-                        tintColor: COLORS.darkGreen
-                    }} />
-                    </TouchableOpacity>
+
+                    <Image source={isBookmark ? icons.bookmarkfilled : icons.bookmark}
+                        style={{
+                            width: 20,
+                            height: 20,
+                            marginRight: SIZES.base,
+                            tintColor: COLORS.darkGreen
+                        }} />
+                </TouchableOpacity>
             </View>
             {/* duration */}
             <Text style={{
@@ -80,51 +80,54 @@ const RecipeCardInfo = ({ recipeItem }) => {
 }
 
 const TrendingSection = ({ containerStyle, recipeItem, onPress }) => {
-    return (
+    if (recipeItem.isTrending) {
+        return (
 
 
-        <TouchableOpacity
-            style={{
-                height: 350,
-                width: 250,
-                marginTop: SIZES.radius,
-                marginRight: 20,
-                borderRadius: SIZES.radius,
-                ...containerStyle
-            }}
-            onPress={onPress}>
 
-            <Image
-                source={recipeItem.image}
-                resizeMode='cover'
+            <TouchableOpacity
                 style={{
-                    width: 250,
                     height: 350,
-                    borderRadius: SIZES.radius
-                }} />
-            <View style={{
-                position: 'absolute',
-                top: 20,
-                left: 15,
-                paddingHorizontal: SIZES.radius,
-                paddingVertical: 5,
-                backgroundColor: COLORS.transparentGray,
-                borderRadius: SIZES.radius,
-            }}>
-                <Text style={{
-                    color: COLORS.white,
-                    ...FONTS.h4
+                    width: 250,
+                    marginTop: SIZES.radius,
+                    marginRight: 20,
+                    borderRadius: SIZES.radius,
+                    ...containerStyle
+                }}
+                onPress={onPress}>
+
+                <Image
+                    source={{uri: recipeItem.image.toString()}}
+                    resizeMode='cover'
+                    style={{
+                        width: 250,
+                        height: 350,
+                        borderRadius: SIZES.radius
+                    }} />
+                <View style={{
+                    position: 'absolute',
+                    top: 20,
+                    left: 15,
+                    paddingHorizontal: SIZES.radius,
+                    paddingVertical: 5,
+                    backgroundColor: COLORS.transparentGray,
+                    borderRadius: SIZES.radius,
                 }}>
-                    {recipeItem.category}
-                </Text>
-            </View>
-            <RecipeCardInfo
-                recipeItem={recipeItem} />
+                    <Text style={{
+                        color: COLORS.white,
+                        ...FONTS.h4
+                    }}>
+                        {recipeItem.category}
+                    </Text>
+                </View>
+                <RecipeCardInfo
+                    recipeItem={recipeItem} />
 
-        </TouchableOpacity>
+            </TouchableOpacity>
 
 
-    )
+        )
+    }
 }
 
 export default TrendingSection

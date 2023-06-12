@@ -49,14 +49,7 @@ const Tabs = () => {
                     icon={icons.bookmark} />
             }}
             />
-              
-             
-            {/* <Tab.Screen name="Profile" component={Profile} 
-            options={{
-                tabBarIcon: ({ focused }) => <TabIcon focused={focused}
-                    icon={icons.bookmarkfilled} />
-            }} 
-            /> */}
+           
         </Tab.Navigator>
 
     )
@@ -64,7 +57,6 @@ const Tabs = () => {
 
 const styles = StyleSheet.create({
     shadow: {
-        // shadowColor: COLORS.blue,
         shadowOffset: {
             width: 0,
             height: 10,
