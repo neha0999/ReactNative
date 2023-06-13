@@ -19,36 +19,18 @@ const RecipeCardDetails = ({ recipeItem }) => {
 
         }}>
             {/* Name and bookmark */}
-            <View style={{
-                flex: 1,
-                flexDirection: 'row',
-                justifyContent: 'space-between'
-            }}>
-                <Text style={{
-                    width: '70%',
-                    color: COLORS.lightLime,
-                    ...FONTS.h3,
-                    fontSize: 15
-                }}>
+            <View style={styles.nameContainer}>
+                <Text style={styles.name}>
                     {recipeItem.name}
-
                 </Text>
                 <TouchableOpacity onPress={handlePress}>
 
                     <Image source={isBookmark ? icons.bookmarkfilled : icons.bookmark}
-                        style={{
-                            width: 20,
-                            height: 20,
-                            marginRight: SIZES.base,
-                            tintColor: COLORS.darkGreen
-                        }} />
+                        style={styles.bookmarkIcon} />
                 </TouchableOpacity>
             </View>
             {/* duration */}
-            <Text style={{
-                color: COLORS.lightGray,
-                ...FONTS.body4
-            }}>
+            <Text style={styles.subDetail}>
                 {recipeItem.duration}|{recipeItem.serving} Serving
 
             </Text>
@@ -83,40 +65,17 @@ const TrendingSection = ({ containerStyle, recipeItem, onPress }) => {
     if (recipeItem.isTrending) {
         return (
 
-
-
             <TouchableOpacity
-                style={{
-                    height: 350,
-                    width: 250,
-                    marginTop: SIZES.radius,
-                    marginRight: 20,
-                    borderRadius: SIZES.radius,
-                    ...containerStyle
-                }}
+                style={styles.container}
                 onPress={onPress}>
 
                 <Image
-                    source={{uri: recipeItem.image.toString()}}
+                    source={{ uri: recipeItem.image.toString() }}
                     resizeMode='cover'
-                    style={{
-                        width: 250,
-                        height: 350,
-                        borderRadius: SIZES.radius
-                    }} />
-                <View style={{
-                    position: 'absolute',
-                    top: 20,
-                    left: 15,
-                    paddingHorizontal: SIZES.radius,
-                    paddingVertical: 5,
-                    backgroundColor: COLORS.transparentGray,
-                    borderRadius: SIZES.radius,
-                }}>
-                    <Text style={{
-                        color: COLORS.white,
-                        ...FONTS.h4
-                    }}>
+                    style={styles.imageContainer}
+                />
+                <View style={styles.categoryContainer}>
+                    <Text style={styles.category}>
                         {recipeItem.category}
                     </Text>
                 </View>
@@ -133,6 +92,11 @@ const TrendingSection = ({ containerStyle, recipeItem, onPress }) => {
 export default TrendingSection
 
 
+
+
+
+
+
 const styles = StyleSheet.create({
     recipeCardContainner: {
         position: 'absolute',
@@ -144,5 +108,51 @@ const styles = StyleSheet.create({
         paddingHorizontal: SIZES.base,
         borderRadius: SIZES.radius
 
+    },
+    container: {
+        height: 350,
+        width: 250,
+        marginTop: SIZES.radius,
+        marginRight: 20,
+        borderRadius: SIZES.radius,
+    },
+    imageContainer: {
+        width: 250,
+        height: 350,
+        borderRadius: SIZES.radius
+    },
+    categoryContainer: {
+        position: 'absolute',
+        top: 20,
+        left: 15,
+        paddingHorizontal: SIZES.radius,
+        paddingVertical: 5,
+        backgroundColor: COLORS.transparentGray,
+        borderRadius: SIZES.radius,
+    },
+    category: {
+        color: COLORS.white,
+        ...FONTS.h4
+    },
+    nameContainer: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    name: {
+        width: '70%',
+        color: COLORS.lightLime,
+        ...FONTS.h3,
+        fontSize: 15
+    },
+    bookmarkIcon: {
+        width: 20,
+        height: 20,
+        marginRight: SIZES.base,
+        tintColor: COLORS.darkGreen
+    },
+    subDetail: {
+        color: COLORS.lightGray,
+        ...FONTS.body4
     }
 })

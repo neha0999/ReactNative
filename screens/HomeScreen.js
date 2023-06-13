@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { SafeAreaView, Text, View, Linking, StyleSheet } from 'react-native';
-import { FONTS, COLORS, SIZES, icons, images, dummyData } from '../constant';
+import { FONTS, COLORS, SIZES, dummyData } from '../constant';
 import { FlatList, ScrollView } from 'react-native-gesture-handler';
-import { CategoryCard, Header, SavedRecipesCard, SearhBar, TrendingSection } from '../components';
+import { CategoryCard, SavedRecipesCard, SearhBar, TrendingSection } from '../components';
 import { color } from 'react-native-reanimated';
 
 
@@ -11,22 +11,18 @@ const HomeScreen = ({ navigation }) => {
 
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.black, paddingVertical: SIZES.padding }}>
+    <SafeAreaView style={styles.container}>
       <FlatList
         data={dummyData.categories}
         keyExtractor={item => `${item.id}`}
         keyboardDismissMode='on-drag'
         showsVerticalScrollIndicator={false}
         ListHeaderComponent={<View>
-          
+
           <SearhBar />
           <SavedRecipesCard />
-          <View style={{ marginTop: SIZES.padding }}>
-            <Text style={{
-              marginHorizontal: SIZES.padding,
-              ...FONTS.h2,
-              color:COLORS.white
-            }}>Trending Recipes
+          <View style={styles.subContainer}>
+            <Text style={styles.trendingText}>Trending Recipes
 
             </Text>
             <FlatList
@@ -42,18 +38,16 @@ const HomeScreen = ({ navigation }) => {
                       marginLeft: index == 0 ? SIZES.padding : 0
                     }}
                     recipeItem={item}
-                  // onPress={}
+                    onPress={() => {
+                      const youtubeUrl = item.url;
+                      Linking.openURL(youtubeUrl);
+                    }}
                   />
                 )
 
               }} />
           </View>
-          <Text style={{
-            marginHorizontal: SIZES.padding,
-            marginTop: SIZES.body3,
-            ...FONTS.h2,
-            color:COLORS.white
-          }}>Recents</Text>
+          <Text style={styles.recentsText}>Recents</Text>
         </View>}
         renderItem={({ item }) => {
           return (
@@ -87,6 +81,23 @@ const HomeScreen = ({ navigation }) => {
 export default HomeScreen;
 
 
-const styles = StyleSheet.create({
 
+
+
+const styles = StyleSheet.create({
+  container:
+    { flex: 1, backgroundColor: COLORS.black, paddingVertical: SIZES.padding },
+  subContainer:
+    { marginTop: SIZES.padding },
+    trendingText:{
+      marginHorizontal: SIZES.padding,
+      ...FONTS.h2,
+      color: COLORS.white
+    },
+    recentsText:{
+      marginHorizontal: SIZES.padding,
+      marginTop: SIZES.body3,
+      ...FONTS.h2,
+      color: COLORS.white
+    }
 })

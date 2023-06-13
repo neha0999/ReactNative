@@ -32,3 +32,4 @@ const CustomButton = ({ buttonText, buttonContainerStyle, colors, onPress }) => 
 
 }
 export default CustomButton;
+

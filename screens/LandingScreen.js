@@ -10,35 +10,22 @@ import { useNavigation } from '@react-navigation/native';
 function renderHeader() {
   return (
     <View 
-    style={{height:SIZES.height>700?"65%":"60%"}}>
+    style={styles.headerContainer}>
     <ImageBackground
       source={images.background}
-      style={{
-        flex: 1,
-        justifyContent: "flex-end",
-      }}
+      style={styles.backgroundImage}
       resizeMode="cover"
     >
       <LinearGradient
         start={{ x: 0, y: 0 }}
         end={{ x: 0, y: 1 }}
         colors={[COLORS.transparent,COLORS.black]}
-        style={{
-          height:200,
-          justifyContent: "flex-end",
-          paddingHorizontal:SIZES.padding
-        }}
+        style={styles.gradient}
       >
         <Text
-          style={{
-            width: "80%",
-            color: COLORS.white,
-            ...FONTS.largeTitle,
-            lineHeight: 45,
-
-          }}>
-
-          Cook a Delicious Food Easily</Text>
+          style={styles.title}>
+          Cook a Delicious Food Easily
+        </Text>
       </LinearGradient>
 
     </ImageBackground>
@@ -48,15 +35,10 @@ function renderHeader() {
 
 function renderDetails(navigation) {
   return (
-    <View style={{ flex: 1, paddingHorizontal: SIZES.padding }}>
+    <View style={styles.detailsContainer}>
       <Text
-        style={{
-          marginBottom: SIZES.radius,
-          width: "70%",
-          color: COLORS.gray,
-          ...FONTS.body3
-        }}>Discover more than 120 food recipes in your hand and cooking it easily</Text>
-      <View style={{flex:1, justifyContent:'center'}}>
+        style={styles.subTitle}>Discover more than 120 food recipes in your hand and cooking it easily</Text>
+      <View style={styles.buttonContainer}>
         {/* Login */}
         <CustomButton
           buttonText="Get Started"
@@ -95,17 +77,37 @@ export default LandingScreen
 
 
 
+
 const styles = StyleSheet.create({
-  container: {
-    flex: 15,
-    height: 600,
-  },
+ 
   background: {
     flex: 1,
     backgroundColor: COLORS.black
   },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
+  headerContainer:{height:SIZES.height>700?"65%":"60%"},
+  backgroundImage:{
+    flex: 1,
+    justifyContent: "flex-end",
   },
+  gradient:{
+    height:200,
+    justifyContent: "flex-end",
+    paddingHorizontal:SIZES.padding
+  },
+  title:{
+    width: "80%",
+    color: COLORS.white,
+    ...FONTS.largeTitle,
+    lineHeight: 45,
+
+  },
+  detailsContainer:{ flex: 1, paddingHorizontal: SIZES.padding },
+  subTitle:{
+    marginBottom: SIZES.radius,
+    width: "70%",
+    color: COLORS.gray,
+    ...FONTS.body3
+  },
+  buttonContainer:{flex:1, justifyContent:'center'}
+  
 });
