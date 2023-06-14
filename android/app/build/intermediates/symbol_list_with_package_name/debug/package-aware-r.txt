@@ -1899,6 +1899,7 @@ layout youtube_layout
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

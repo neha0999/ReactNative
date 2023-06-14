@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: COLORS.black
   },
-  headerContainer:{height:SIZES.height>700?"65%":"60%"},
+  headerContainer:{height:SIZES.height>700?"75%":"60%"},
   backgroundImage:{
     flex: 1,
     justifyContent: "flex-end",
