@@ -179,7 +179,7 @@ const categories = [
 
     },
     {
-        id: 13,
+        id: 14,
         name: "Irresistible Chicken Shawarma",
         image: "https://img.youtube.com/vi/q_l1U6NS5_I/mq1.jpg",
         duration: "10:30 mins ",
@@ -192,7 +192,7 @@ const categories = [
 
     },
     {
-        id: 14,
+        id: 15,
         name: "Katori Chat",
         image: "https://img.youtube.com/vi/57FCCj2I_Lo/mq1.jpg",
         duration: "4:04 mins ",
@@ -205,7 +205,7 @@ const categories = [
 
     },
     {
-        id: 15,
+        id: 16,
         name: "Crispy Homemade Chicken Nuggets",
         image: "https://img.youtube.com/vi/9UrBM-Bd5yk/mq1.jpg",
         duration: "6:05 mins ",
@@ -218,7 +218,7 @@ const categories = [
 
     },
     {
-        id: 16,
+        id: 17,
         name: "Delicious Homemade Samosas",
         image: "https://img.youtube.com/vi/mpFkuRp1v7A/mqdefault.jpg",
         duration: "5:39 mins ",
@@ -231,7 +231,7 @@ const categories = [
 
     },
     {
-        id: 17,
+        id: 18,
         name: "Refreshing Strawberry Smoothie",
         image: "https://img.youtube.com/vi/uByiD_Z9smA/mq1.jpg",
         duration: "2:41 mins ",
@@ -244,7 +244,7 @@ const categories = [
 
     },
     {
-        id: 18,
+        id: 19,
         name: "Crispy Fried Chicken",
         image: "https://img.youtube.com/vi/XHxzFxLBjCw/mqdefault.jpg",
         duration: "12:28 mins ",
@@ -257,7 +257,7 @@ const categories = [
 
     },
     {
-        id: 19,
+        id: 20,
         name: "Ultimate Chicken Biryani",
         image: "https://img.youtube.com/vi/O4N2KrlXw-0/mqdefault.jpg",
         duration: "6:06 mins ",
@@ -270,7 +270,7 @@ const categories = [
 
     },
     {
-        id: 20,
+        id: 21,
         name: "Makki Roti and Walnut Chutney",
         image: "https://img.youtube.com/vi/W8Bnv3gV3wg/mqdefault.jpg",
         duration: "7:49 mins ",
@@ -283,7 +283,7 @@ const categories = [
 
     },
     {
-        id: 21,
+        id: 22,
         name: "Mint Margarita",
         image: "https://img.youtube.com/vi/IVhi_v0UBCY/mqdefault.jpg",
         duration: "3:08 mins ",

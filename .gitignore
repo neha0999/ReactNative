@@ -16,3 +16,19 @@ node_modules
 *.log
 .nvm
 package-lock.json
+
+
+# React Native
+
+npm-debug.*
+yarn-error.log
+android/.gradle/
+android/build/
+android/app/build/
+android/gradle/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+ios/Pods/
+ios/build/
+ios/Podfile.lock

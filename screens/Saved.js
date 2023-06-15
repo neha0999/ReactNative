@@ -9,9 +9,7 @@ const Saved = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.text}>Saved Recipes
-
-      </Text>
+      <Text style={styles.text}>Saved Recipes  </Text>
       <FlatList
         data={dummyData.categories}
         keyExtractor={item => `${item.id}`}

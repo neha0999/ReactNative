@@ -4,11 +4,8 @@ import React from 'react';
 
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from '@react-navigation/native';
-import {
-  StyleSheet,
-} from 'react-native';
 import Tabs from './navigation/tab';
-import { Saved,LandingScreen, SearchedRecipes} from './screens';
+import { Saved,LandingScreen, SearchedRecipes, HomeScreen} from './screens';
 
 
 const Stack = createStackNavigator();
@@ -27,12 +24,13 @@ function App(): JSX.Element {
         />
         <Stack.Screen
           name="Home"
-          component={Tabs}
+          component={HomeScreen}
           options={{ headerShown: false }}
         />
         <Stack.Screen
           name="Saved"
           component={Saved}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="SearchedRecipes"
